@@ -13,7 +13,7 @@ http://localhost:10080/phpinfo.php
 ```
 $ mkdir backend/public
 $ echo "Hello World" > backend/public/index.html
-$echo "<?php phpinfo();" > backend/public/phpinfo.php
+$ echo "<?php phpinfo();" > backend/public/phpinfo.php
 
 ```
 
@@ -23,3 +23,5 @@ $echo "<?php phpinfo();" > backend/public/phpinfo.php
 $ rm -rf backend/*
 
 ```
+
+##### Laravel のインストール

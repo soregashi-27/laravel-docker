@@ -31,5 +31,24 @@ $ rm -rf backend/*
 MySQL のデータベースコンテナを作成
 Docker-hub 上の MySQL イメージを使う
 docker-compose.yml へ追加
-ー　データベース名、ユーザー名の接続情報、タイムゾーンの設定を環境変数で行う
-ー データの永続化をするために、トップレベルで volume を使う
+ー　データベース名、ユーザー名の接続情報、タイムゾーンの設定を環境変数で行う \
+ー データの永続化をするために、トップレベルで volume を使う \
+
+##### githubから環境を再度構築する場合の手順
+
+##### ①git cloneする
+
+##### ②バックグラウンドでdocker-composeをbuildする
+
+##### ③appコンテナに入ってcomposerをインストールする（このdir限定）
+（githubにアップしてるlaravelのコード差分を入れてくれてる認識）
+
+##### ④マイグレーションする
+
+```
+$ php artisan migrate:fresh
+または
+$ php artisan migrate:refresh
+```
+
+Laravelのトップページが表示されればOK。

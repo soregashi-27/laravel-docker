@@ -1,6 +1,9 @@
 
+![Laravel 8.x](https://img.shields.io/badge/Laravel-8.x-red)
+
 
 # Docker で laravel の環境構築
+
 
 dafault.conf ファイルの参考 URL
 https://readouble.com/laravel/7.x/ja/deployment.html

@@ -1,6 +1,6 @@
 
 ![Laravel 8.x](https://img.shields.io/badge/Laravel-8.x-red)
-
+<img src="https://img.shields.io/badge/-Docker-EEE.svg?logo=docker&style=flat">
 
 # Docker で laravel の環境構築
 

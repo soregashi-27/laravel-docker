@@ -89,3 +89,13 @@ $ php artisan migrate:refresh
 ```
 
 Laravelのトップページが表示されればOK。
+
+
+##### はまりやすい部分
+
+Laravelのバージョンを確認する時は、artisanファイルが存在するdirectoryで下記をコマンドで入力。
+
+```
+$ php artisan -V
+```
+

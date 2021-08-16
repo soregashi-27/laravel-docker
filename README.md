@@ -91,7 +91,7 @@ $ php artisan migrate:refresh
 Laravelのトップページが表示されればOK。
 
 
-##### はまりやすい部分
+##### バージョン確認
 
 Laravelのバージョンを確認する時は、artisanファイルが存在するdirectoryで下記をコマンドで入力。
 
